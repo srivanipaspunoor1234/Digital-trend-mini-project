@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header {
+    background-color: rgb(14, 129, 149);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.nav a:hover {
+    background-color: transparent;
+    border: 2px solid #f5c400;
+    color: #f5c400;
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#img{
+    width: 300px;
+}
+
+
+.sec1 {
+    position: relative;
+    height: 70vh;
+    background-color: rgb(6, 121, 140);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 50px;
+    overflow: hidden;
+}
+
+.sec1::after {
+    content: "";
+    position: absolute;
+    transform: rotate(-10deg);
+    z-index: 1;
+    bottom: -150px;
+    left: -120px;
+    width: 130%;
+    height: 320px;
+    background: white;
+}
+
+.div1 {
+    position: relative;
+    z-index: 2;
+    max-width: 500px;
+}
+
+.sec1 h1 {
+    font-size: 30px;
+}
+
+.div1 p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.div2 {
+    position: relative;
+    z-index: 2;
+}
+
+#btn1 {
+    background-color: white;
+    color: rgb(6, 121, 140);
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    width: 200px;
+    margin: 15px 0px;
+
+}
+
+#btn1:hover {
+    transform: scale(1.2);
+}
+
+.sec1 a {
+    text-decoration: none;
+    color: rgb(6, 121, 140);
+}
+
+.sec2 {
+    margin: auto;
+    text-align: left;
+    padding: 0px 80px 0px 80px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.sec2paras {
+    color: grey;
+}
+
+#h2 {
+    text-align: left;
+    width: 400px;
+
+}
+
+span {
+    color: rgb(236, 192, 7);
+}
+
+#officeimg {
+    width: 500px;
+}
+
+.sec3 {
+    background-color: rgb(240, 247, 253);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 50px 0px;
+}
+
+.sec3 h3 {
+    padding-bottom: 30px;
+}
+
+.carousel-div {
+    text-align: center;
+    padding: 50px;
+    width: 800px;
+
+}
+
+.carousel-caption {
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+
+}
+
+.sec4 {
+    display: flex;
+    justify-content: center;
+    padding: 60px
+}
+
+.sec4 img {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+#para1 {
+    font-size: 15px;
+    color: grey;
+}
+
+#para3 {
+    font-size: 12px;
+}
+
+.paras {
+    margin-top: 50px;
+    text-align: left;
+}
+
+footer {
+    background-color: rgb(24, 25, 27);
+    color: white;
+    padding: 80px 50px 40px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.footer-middle {
+    color: grey;
+    font-size: small;
+    margin-top: 10px;
+}
+
+.footer-right {
+    color: grey;
+    font-size: small;
+    margin-top: 10px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    padding-right: 100px;
+    color: grey;
+    font-size: small;
+    gap: 20px;
+}
+
+.content {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: grey;
+    font-size: small;
+    padding: 2px;
+
+}
+
+.content p {
+    margin-bottom: 0px;
+}
+
+.footer-middle p {
+    margin-bottom: 0px;
+}
+
+.socials a:hover {
+    color: #f5c400;
+}
+
+.links a:hover {
+    color: #f5c400;
+}
+
+button.carousel-control-prev {
+    background-color: #f5c400;
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+button.carousel-control-next {
+    background-color: #f5c400;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    margin-right: 15px;
+}
