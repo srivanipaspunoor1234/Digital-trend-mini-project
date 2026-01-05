@@ -17,6 +17,6 @@ Features
 Technologies Used
 
 - HTML5  
-- CSS3  
+- CSS
 - Bootstrap 5  
 - Font Awesome  
